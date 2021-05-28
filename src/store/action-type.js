@@ -1,0 +1,3 @@
+export const ADD_INTERVAL = 'ADD_INTERVAL'
+export const SET_NULL = 'SET_NULL'
+export const UPDATE_INTERVAL = 'UPDATE_INTERVAL'
