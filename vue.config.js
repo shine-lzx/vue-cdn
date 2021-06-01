@@ -22,6 +22,7 @@ const cdn = {
     'vue-router': 'VueRouter',
     axios: 'axios',
     'element-ui': 'ELEMENT',
+    jquery: '$',
   },
   // 通过cdn方式使用
   js: [
@@ -43,13 +44,13 @@ function resolve(dir) {
 module.exports = {
   // 是否触发eslint检查
   lintOnSave: false,
-  publicPath: '/',
+  publicPath: '/xj-screen',
   // 打包文件的出口
   outputDir: 'dist',
   // 放置生成的css和js和img和fonts的目录
   assetsDir: 'static',
   // 存放index.html模板的路径
-  indexPath: 'static/index.html',
+  // indexPath: '/dist',
   productionSourceMap: false,
   chainWebpack: (config) => {
     // 配置cdn引入

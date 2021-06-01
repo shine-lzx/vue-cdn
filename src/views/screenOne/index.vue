@@ -22,6 +22,7 @@
 
 <script>
 import _ from 'lodash'
+import $ from 'jquery'
 export default {
   name: 'screenOne',
   data() {
@@ -44,6 +45,7 @@ export default {
       }
 
       console.log(_.pick(obj, ['age']))
+      console.log($)
     },
   },
 }
